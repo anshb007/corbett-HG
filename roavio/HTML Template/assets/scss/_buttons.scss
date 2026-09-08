@@ -1,0 +1,61 @@
+.theme-btn {
+    position: relative;
+	display: inline-flex;
+	overflow: hidden;
+	padding: 18px 35px;
+	text-align: center;
+	z-index: 1;
+	color: $white;
+	font-weight: 600;
+	text-transform: capitalize;
+	transition: .5s;
+	background-color: $theme-color;
+    border-radius: 10px;
+
+    &.color {
+        background-color: $theme-color-2;
+    }
+
+     @include breakpoint (max-sm) {
+        padding: 14px 30px;
+    }
+
+    &::after {
+        position: absolute;
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border-radius: 50%;
+        background-color: $header-color;
+        transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+        transform: translate(-50%, -50%);
+        z-index: -1;
+    }
+
+    &:hover {
+       &::after {
+          width: 225%;
+	      height: 562.5px;
+       }
+    }
+}
+
+.link-btn {
+    color: $text-color;
+    background-position: 0 95%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    display: inline;
+    font-weight: 600;
+
+    &:hover {
+        color: $theme-color;
+        background-size: 100% 2px;
+        background-image: linear-gradient(
+            180deg,
+            $theme-color 0%,
+            $theme-color 100%
+        );
+    }
+}

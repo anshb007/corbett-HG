@@ -1,0 +1,119 @@
+.cta-contact-wrapper {
+
+     @include breakpoint (max-xxl) {
+       padding-top: 100px;
+       padding-bottom: 100px;
+    }
+
+    @include breakpoint (max-lg) {
+       padding-top: 80px;
+       padding-bottom: 80px;
+    }
+
+    @include breakpoint (max-md) {
+       padding-top: 80px;
+       padding-bottom: 80px;
+    }
+
+    .cta-image {
+        margin-left: -322px;
+        border-radius: 10px;
+        overflow: hidden;
+
+        @include breakpoint (max-xxl) {
+            margin-left: 0;
+        }
+
+        img {
+            @include imgw;
+            border-radius: 10px;
+        }
+    }
+
+    .cta-right-content {
+        margin-left: 90px;
+
+        @include breakpoint (max-xxl) {
+            margin-left: 0;
+        }
+
+        .text {
+            margin-top: 10px;
+            margin-bottom: 70px;
+
+            @include breakpoint (max-xxl) {
+                margin-bottom: 30px;
+            }
+        }
+
+        form {
+            max-width: 515px;
+            width: 100%;
+
+            .form-clt {
+                position: relative;
+
+                input {
+                    width: 100%;
+                    outline: none;
+                    border: none;
+                    border-radius: 10px;
+                    background: $white;
+                    color: $text-color;
+                    line-height: 1;
+                    padding: 20px;
+                    max-width: 515px;
+                    border: 1px solid rgba(21, 21, 21, 0.10);
+
+                    &::placeholder {
+                        color: $text-color;
+                    }
+                }
+
+                .theme-btn {
+                    position: absolute;
+                    top: 4px;
+                    right: 4px;
+                    bottom: 4px;
+                    line-height: 18px;
+                }
+            } 
+        }
+    }
+}
+
+.cta-contact-section-3 {
+    position: relative;
+    z-index: 9;
+
+    .right-shape {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: -1;
+
+        @include breakpoint (max-xxl) {
+            display: none;
+        }
+    }
+
+    .top-shape {
+        position: absolute;
+        top: 35px;
+        right: 50%;
+
+        @include breakpoint (max-xxl) {
+            display: none;
+        }
+    }
+
+    .bottom-shape {
+        position: absolute;
+        right: 35px;
+        bottom: 45px;
+
+        @include breakpoint (max-xxl) {
+            display: none;
+        }
+    }
+}

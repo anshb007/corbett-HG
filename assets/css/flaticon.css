@@ -1,0 +1,146 @@
+/*!
+*    ______ _       _   _
+*    |  ____| |     | | (_)
+*    | |__  | | __ _| |_ _  ___ ___  _ __
+*    |  __| | |/ _` | __| |/ __/ _ \| '_ \
+*    | |    | | (_| | |_| | (_| (_) | | | |
+*    |_|    |_|\__,_|\__|_|\___\___/|_| |_|
+*
+*         https://www.flaticon.com
+*/
+
+@font-face {
+    font-family: "flaticon";
+    src: url("../flacticon/flaticon.woff2?aa544ecf36a50e010c42c095dbaaca90") format("woff2"),
+url("../flacticon/flaticon.woff?aa544ecf36a50e010c42c095dbaaca90") format("woff"),
+url("../flacticon/flaticon.eot?aa544ecf36a50e010c42c095dbaaca90#iefix") format("embedded-opentype"),
+url("../flacticon/flaticon.ttf?aa544ecf36a50e010c42c095dbaaca90") format("truetype"),
+url("../flacticon/flaticon.svg?aa544ecf36a50e010c42c095dbaaca90#flaticon_roavio") format("svg")
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-travel-agency:before {
+    content: "\f101";
+}
+.flaticon-travel:before {
+    content: "\f102";
+}
+.flaticon-traveling:before {
+    content: "\f103";
+}
+.flaticon-roadmap:before {
+    content: "\f104";
+}
+.flaticon-mouse:before {
+    content: "\f105";
+}
+.flaticon-promotion:before {
+    content: "\f106";
+}
+.flaticon-tourist:before {
+    content: "\f107";
+}
+.flaticon-insurance:before {
+    content: "\f108";
+}
+.flaticon-traveling-1:before {
+    content: "\f109";
+}
+.flaticon-hot-air-balloon:before {
+    content: "\f10a";
+}
+.flaticon-passport:before {
+    content: "\f10b";
+}
+.flaticon-tent:before {
+    content: "\f10c";
+}
+.flaticon-costumer:before {
+    content: "\f10d";
+}
+.flaticon-suitcase:before {
+    content: "\f10e";
+}
+.flaticon-excursion:before {
+    content: "\f10f";
+}
+.flaticon-quote:before {
+    content: "\f110";
+}
+.flaticon-left-quote:before {
+    content: "\f111";
+}
+.flaticon-travel-agency-1:before {
+    content: "\f112";
+}
+.flaticon-price-tag:before {
+    content: "\f113";
+}
+.flaticon-booking:before {
+    content: "\f114";
+}
+.flaticon-destination:before {
+    content: "\f115";
+}
+.flaticon-man:before {
+    content: "\f116";
+}
+.flaticon-holiday-trip:before {
+    content: "\f117";
+}
+.flaticon-tourist-1:before {
+    content: "\f118";
+}
+.flaticon-travel-insurance:before {
+    content: "\f119";
+}
+.flaticon-journey:before {
+    content: "\f11a";
+}
+.flaticon-flight-plan:before {
+    content: "\f11b";
+}
+.flaticon-tourist-2:before {
+    content: "\f11c";
+}
+.flaticon-family:before {
+    content: "\f11d";
+}
+.flaticon-wedding:before {
+    content: "\f11e";
+}
+.flaticon-win:before {
+    content: "\f11f";
+}
+.flaticon-hiking:before {
+    content: "\f120";
+}
+.flaticon-safari:before {
+    content: "\f121";
+}
+.flaticon-airplane:before {
+    content: "\f122";
+}
+.flaticon-cutlery:before {
+    content: "\f123";
+}
+.flaticon-swimming-pool:before {
+    content: "\f124";
+}
+.flaticon-stationary-bike:before {
+    content: "\f125";
+}
+.flaticon-washing-machine:before {
+    content: "\f126";
+}
+

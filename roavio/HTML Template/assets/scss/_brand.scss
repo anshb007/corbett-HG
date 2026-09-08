@@ -1,0 +1,31 @@
+.brand-wrapper {
+    h6 {
+        text-align: center;
+        margin-bottom: 50px;
+
+        @include breakpoint (max-xxl) {
+            margin-bottom: 30px;
+        }
+    }
+
+    .brand-image {
+        @include transition;
+            opacity: .4;
+    
+        &:hover {
+            filter: initial;
+            opacity: 1;
+        }
+    }
+
+    .swiper-slide.swiper-slide-active{
+            .brand-image {
+                filter: initial;
+                opacity: 1;
+            }
+        }
+}
+
+.brand-section {
+    border-top: 1px solid rgba(21, 21, 21, 0.10);
+}

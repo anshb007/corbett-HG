@@ -1,0 +1,101 @@
+/*
+Theme Name: Roavio 
+Author: 
+Author URI: https://themeforest.net/user/webtend/portfolio
+Description: Roavio - Travel & Tour Booking Html Template 
+Version: 1.0.0
+*/
+
+/*CSS Table Of Content Ends Here*/
+
+/*
+--------------------------------------------------------------
+[Table of Contents]
+--------------------------------------------------------------
+01. Variables & Mixins
+02. Typography
+03. Buttons
+04. About 
+05. Adventure
+06. Animation 
+07. Brand 
+08. Contact
+09. Cta
+10. Faq
+11. Feature
+12. Footer
+13. Header
+14. Helping
+15. Hero
+16. Marque
+17. Meanmenu
+18. News
+19. Preloader
+20. Section
+21. Service
+22. Team
+23. Testimonial
+24. Tour
+
+--------------------------------------------------------------
+*/
+
+//>> Basic Start <<//
+
+//>> Mixins <<//
+@import "_mixins";
+//>> Variables <<//	
+@import "_variables";
+//>> Buttons <<//
+@import "_buttons";
+//>> Typography <<//
+@import "_typography";
+//>> Basic End <<//	
+
+
+//>> Template Section Style Start <<//
+
+//>> About <<//
+@import "_about";
+//>> Adventure <<//
+@import "adventure";
+//>> Animation <<//
+@import "_animation";
+//>> Brand <<//
+@import "_brand";
+//>> Contact <<//
+@import "_contact";
+//>> Cta <<//
+@import "_cta";
+//>> Faq <<//
+@import "_faq";
+//>> Feature <<//
+@import "_feature";
+//>> Footer <<//
+@import "_footer";
+//>> Header <<//
+@import "_header";
+//>> Helping <<//
+@import "_helping";
+//>> Hero <<//
+@import "_hero";
+//>> MeanMenu <<//
+@import "_meanmenu";
+//>> News <<//
+@import "_news";
+//>> Preloader <<//
+@import "_preloader";
+//>> Section <<//
+@import "_section";
+//>> Team <<//
+@import "_team";
+//>> Testimonial <<//
+@import "_testimonial";
+//>> Tour <<//
+@import "_tour";
+
+
+
+
+//>> Template Section Style End <<//
+
